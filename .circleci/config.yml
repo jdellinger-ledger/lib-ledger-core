@@ -17,7 +17,7 @@ jobs:
       - run:
           name: Setup
           command: |
-            . .circleci/setup_debian.sh Release
+            . .circleci/setup_debian.sh Release 
       - run:
           name: Submodule_Initialization
           command: |
